@@ -1,0 +1,29 @@
+.grid{
+  display: grid;
+  grid:auto auto
+  /auto auto auto auto;
+}
+.grid div:nth-child(1){
+  order:8;
+}
+.grid div:nth-child(2){
+  order :2;
+}
+.grid div:nth-child(3){
+  order :1;
+}
+.grid div:nth-child(4){
+  order :4;
+}
+.grid div:nth-child(5){
+  order :7;
+}
+.grid div:nth-child(6){
+  order :4;
+}
+.grid div:nth-child(7){
+  order :5;
+}
+.grid div:nth-child(8){
+  order :6;
+}
